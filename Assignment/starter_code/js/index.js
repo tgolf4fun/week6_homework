@@ -15,9 +15,8 @@ $(document).ready(function(){
     //Update html page background
     function cityBackground(){
         event.preventDefault();
-    // get user input
+    // get user selection
     var city = $('#city-type').val();
-    var city = (city.trim());
     // conditionals for input comparison to defined cities
     if (city === "NYC") {
         //use the attr instead of addClass method
