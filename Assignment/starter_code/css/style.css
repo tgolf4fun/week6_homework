@@ -138,7 +138,9 @@ header {
 .sydney {
   background-image: url(../images/sydney.jpg)
 }
-
+.sea {
+  background-image: url(../images/seattle.jpg)
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/

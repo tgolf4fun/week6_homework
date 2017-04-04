@@ -4,7 +4,7 @@ $(document).ready(function(){
   $('body').removeClass();
   $('#city-type').click(cityBackground);
     // create an array of cities
-    var myCities = ["NYC","SF","LA","ATX","SYD"];
+    var myCities = ["NYC","SF","LA","ATX","SYD","SEA"];
     //not needed but just making sure I can read my array
     console.log(myCities[0]);
 
@@ -33,6 +33,9 @@ $(document).ready(function(){
         }
     else if (city == "SYD") {
         $('body').attr('class', 'sydney')
+        }
+    else if (city == "SEA") {
+        $('body').attr('class', 'sea')
         }
     }
 });
